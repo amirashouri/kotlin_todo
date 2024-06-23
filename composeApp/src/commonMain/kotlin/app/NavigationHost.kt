@@ -30,7 +30,6 @@ fun NavigationHost(
         startDestination = AppRoute.LIST.name,
         modifier = Modifier
             .fillMaxSize()
-            .verticalScroll(rememberScrollState())
             .padding(innerPadding)
     ) {
         composable(route = AppRoute.LIST.name) {
